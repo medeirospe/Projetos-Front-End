@@ -1,0 +1,75 @@
+body, html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.logotipo{
+    justify-items:left;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding-top: 5px;
+}
+.logocaption{
+    margin-left: -5px;
+}
+.logotipo figcaption{
+    padding-bottom: 0;
+}
+.bar{
+    background-color: rgb(239, 238, 238);
+    border-top: solid 1px lightgray;
+    padding: 10px;
+    border-bottom: solid 1px lightgray;
+    margin-left: -10px;
+    width: 100%;   
+}
+main {
+    display: grid;
+    grid-template-columns: 220px 700px 220px;
+    gap: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    width: 1200px;
+}
+.other_links{
+    position: sticky;
+    top: 20px;
+    align-self: start;
+}
+aside{
+    position: sticky;
+    top: 20px;
+    align-self: start;            
+}
+.main_content{
+    border-left: solid 1.5px lightgray;
+    border-right: solid 1.5px lightgray;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.text_topic{
+    background-color: rgb(232, 231, 231);
+    border-radius: 12px;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+figcaption{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .img_trio_spider{
+    justify-items: center;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    color: rgb(56, 56, 138);
+    text-decoration: none;
+    padding: 5px;
+}
